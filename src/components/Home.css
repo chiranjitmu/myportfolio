@@ -1,0 +1,262 @@
+.Home {
+  color: white;
+  position: absolute;
+  width: 75%;
+  height: 50%;
+  left: 5rem;
+  top: 18rem;
+  background: #343434;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.home-logo {
+  display: none;
+}
+
+.mypic {
+  position: absolute;
+  width: 25rem;
+  height: 20rem;
+  object-fit: fill;
+  border-radius: 2rem;
+  top: -10rem;
+  left: 50rem;
+}
+
+.home-name {
+  position: absolute;
+  width: 15rem;
+  height: 1rem;
+  left: 23rem;
+  top: 2rem;
+  font-family: "Jomolhari";
+  font-style: normal;
+  position: absolute;
+  font-weight: 400;
+  font-size: 24px;
+  color: #f9f9ff;
+}
+
+.home-nametag {
+  position: absolute;
+  width: 10rem;
+  left: 26rem;
+  top: 5rem;
+  font-family: "Karma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #f9f9ff;
+}
+
+:is(.home-nametag, .home-name):hover {
+  color: #fdc562;
+}
+
+.line-6 {
+  position: absolute;
+  width: 76.5%;
+  top: 7rem;
+  left: 1rem;
+}
+
+.home-mailname {
+  position: absolute;
+  width: 4rem;
+  left: 11rem;
+  top: 9.5rem;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.home-mail {
+  position: absolute;
+  width: 10rem;
+  left: 11rem;
+  top: 11rem;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.home-mailicon {
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  left: 6rem;
+  top: 9rem;
+  font-size: 1rem;
+  color: #fdc562;
+}
+
+.home-linkedin {
+  position: absolute;
+  width: 7rem;
+  left: 25rem;
+  top: 16rem;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.home-linkedinicon {
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  left: 20rem;
+  top: 15rem;
+  font-size: 1rem;
+  color: #fdc562;
+}
+
+.home-loc {
+  position: absolute;
+  width: 4rem;
+  left: 40rem;
+  top: 9.5rem;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.home-locname {
+  position: absolute;
+  width: 10rem;
+  left: 40rem;
+  top: 11.5rem;
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.home-locicon {
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  left: 35rem;
+  top: 9rem;
+  font-size: 1rem;
+  color: #fdc562;
+}
+
+/* mobile version */
+
+@media only screen and (max-width: 980px) {
+  .Home {
+    width: 90%;
+    height: 80%;
+    left: 2.5rem;
+    top: 35rem;
+  }
+  .mypic {
+    left: 8rem;
+    top: -18rem;
+    width: 40rem;
+    height: 35rem;
+  }
+
+  .home-logo {
+    display: block;
+    position: absolute;
+    width: 25rem;
+    left: 1rem;
+    top: -33rem;
+    font-family: "Kurale";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    background-image: conic-gradient(
+      from 180deg at 50% 50%,
+      #fdc562 0deg,
+      #fffcf8 360deg
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .home-name {
+    top: 20rem;
+    left: 10rem;
+    font-size: 4rem;
+    width: 37rem;
+  }
+  .home-nametag {
+    top: 28rem;
+    left: 19rem;
+    font-size: 3rem;
+    width: 20rem;
+  }
+  :is(.home-nametag, .home-name):hover {
+    color: white;
+  }
+  .line-6 {
+    top: 34rem;
+    width: 95%;
+    left: 1rem;
+  }
+
+  .home-mailname {
+    font-size: 3rem;
+    top: 39.5rem;
+    left: 18rem;
+  }
+
+  .home-mail {
+    top: 43rem;
+    font-size: 2rem;
+    left: 18rem;
+  }
+
+  .home-mailicon {
+    top: 38rem;
+    width: 9rem;
+    height: 10rem;
+  }
+
+  .home-linkedin {
+    font-size: 3rem;
+    width: 13rem;
+    top: 53rem;
+    left: 18rem;
+  }
+
+  .home-linkedinicon {
+    top: 50rem;
+    width: 9rem;
+    height: 10rem;
+    left: 6.5rem;
+  }
+
+  .home-loc {
+    font-size: 3rem;
+    left: 18rem;
+    top: 67rem;
+  }
+
+  .home-locname {
+    font-size: 2rem;
+    left: 18rem;
+    width: 15rem;
+    top: 71rem;
+  }
+
+  .home-locicon {
+    top: 65rem;
+    width: 9rem;
+    height: 10rem;
+    left: 6.5rem;
+  }
+}

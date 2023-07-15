@@ -1,0 +1,133 @@
+.About{
+    color: white;
+    position: absolute;
+    width: 75%;
+    height: 50%;
+    left: 5rem;
+    top: 18rem;
+    background: #343434;
+    border-radius: 1rem;
+    z-index: -1;
+}
+
+.about-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    top: -15.5rem;
+    left: 45rem;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    padding: 14px;
+}
+
+.mypic2{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10rem;
+    top: -10rem;
+    left: 50rem;
+}
+
+.about-logo{
+    display: none;
+}
+
+.about-greet{
+    position: absolute;
+    width: 13rem;
+    left: 20rem;
+    top: 1rem;
+    font-family: 'Julee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    background: conic-gradient(from 180deg at 50% 50%, #FEA405 0deg, #FAF5ED 343.13deg, #F0ECE6 358.13deg, #FEA405 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about-me{
+    position: absolute;
+    width: 36rem;
+    left: 8rem;
+    top: 4.5rem;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    line-break: 1rem;
+    color: #FFFFFF;
+}
+
+.about-me:hover{
+    background: conic-gradient(from 180deg at 50% 50%, #FEA405 0deg, #FAF5ED 343.13deg, #F0ECE6 358.13deg, #FEA405 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+
+
+/* mobile version */
+
+@media only screen and (max-width: 980px){
+    .about-menu{
+        display: none;
+    }
+
+    .About{
+        width: 90%;
+        height: 70%;
+        left: 2.5rem;
+        top: 35rem;
+    }
+    .mypic2{
+        left: 8rem;
+        top: -18rem;
+        width: 40rem;
+        height: 35rem;
+    }  
+    .about-logo{
+        display: block;
+        position: absolute;
+        width: 25rem;
+        left: 1rem;
+        top: -33rem;
+        font-family: 'IM FELL Great Primer SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5rem;
+        color: #FDC562;
+       }
+
+       .about-greet{
+        top: 20rem;
+        width: 14rem;
+        font-size: 5rem;
+       }
+
+       .about-me{
+        top: 30rem;
+        width: 50rem;
+        left: 2rem;
+        font-size: 3.5rem;
+       }
+
+       .about-me:hover{
+        background: conic-gradient(from 180deg at 50% 50%, #FAF5ED 343.13deg, #F0ECE6 358.13deg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;   
+       }
+}

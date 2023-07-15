@@ -1,0 +1,652 @@
+.Resume{
+        color: white;
+        position: absolute;
+        width: 97%;
+        height: 110rem;
+        left: 1rem;
+        top: 8rem;
+        background: #343434;
+        border-radius: 1rem;
+        z-index: -1;
+    }
+    .resume-logo{
+        display: none;
+    }
+
+    .resume-book{
+        position: absolute;
+        top: 2rem;
+        left: 6rem;
+        font-size: 2rem;
+        color: #FDC562;
+    }
+
+    .education{
+        position: absolute;
+        width: 8rem;
+        left: 10rem;
+        top: 2rem;
+        font-family: 'Brygada 1918', serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .line-8{
+       height: 14rem;
+       width: 0;
+       position: absolute;
+       left: 7rem;
+       top: 4rem;
+    }
+
+    .line-9{
+        position: absolute;
+        top: 4.5rem;
+        width: 4%;
+        left: 10rem;
+        border: 2px solid #FDC562;
+        border-radius: 1.5rem;
+     }
+
+     .degree1-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 7.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+
+     
+     .degree2-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 12.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+      
+     
+     .degree3-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 17.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+
+
+     .resume-degree1{
+        position: absolute;
+        top: 7rem;
+        left: 10rem;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+     .resume-degree2{
+        position: absolute;
+        top: 12rem;
+        left: 10rem;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+     .resume-degree3{
+        position: absolute;
+        top: 17rem;
+        left: 10rem;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+/* project */
+     .resume-project{
+        position: absolute;
+        top: 25rem;
+        left: 6rem;
+        font-size: 2rem;
+        color: #FDC562;
+    }
+
+     .project{
+        position: absolute;
+        width: 8rem;
+        left: 10rem;
+        top: 25rem;
+        font-family: 'Brygada 1918', serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .line-10{
+       height: 14.5rem;
+       width: 0;
+       position: absolute;
+       left: 7rem;
+       top: 27rem;
+    }
+
+    .line-11{
+        position: absolute;
+        top: 28rem;
+        width: 4%;
+        left: 10rem;
+        border: 2px solid #FDC562;
+        border-radius: 1.5rem;
+     }
+
+     .project1-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 31.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+
+     
+     .project2-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 36.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+      
+     
+     .project3-dot{
+        background-color: #FDC562;
+        width: 1rem;
+        height: 1rem;
+        position: absolute;
+        top: 41.5rem;
+        left: 6.5rem;
+        border-radius: 100%;
+     }
+
+
+     .project1{
+        position: absolute;
+        top: 31rem;
+        left: 10rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+     .project2{
+        position: absolute;
+        top: 36rem;
+        left: 10rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+     .project3{
+        position: absolute;
+        top: 41rem;
+        left: 10rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 500;
+     }
+
+     /* skills */
+     
+     .resume-skill{
+        position: absolute;
+        top: 50rem;
+        left: 6rem;
+        font-size: 2rem;
+        color: #FDC562;
+    }
+
+     .skill{
+        position: absolute;
+        width: 8rem;
+        left: 10rem;
+        top: 50rem;
+        font-family: 'Brygada 1918', serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+    }
+ 
+     .line-12{
+         position: absolute;
+         top: 52.5rem;
+         width: 4%;
+         left: 10rem;
+         border: 2px solid #FDC562;
+         border-radius: 1.5rem;
+      }
+    
+    .skill-react{
+        font-family: 'Katibeh';
+        font-style: normal;
+        position: absolute;
+        top: 57rem;
+        left: 6rem;
+        font-weight: 200;
+    }
+
+    .line-13{
+        position: absolute;
+        top: 62rem;
+        width: 70rem;
+        left: 6rem;
+        border: 4px solid white;
+        border-radius: 2rem;
+    }
+
+    .line-14{
+        position: absolute;
+        top: 62rem;
+        width: 50rem;
+        left: 6rem;
+        border: 4px solid #FDC562;
+        border-radius: 2rem;
+    }
+
+    .skill-html{
+        font-family: 'Katibeh';
+        font-style: normal;
+        position: absolute;
+        top: 65rem;
+        left: 6rem;
+        font-weight: 200;
+    }
+
+    .line-15{
+        position: absolute;
+        top: 70rem;
+        width: 70rem;
+        left: 6rem;
+        border: 4px solid white;
+        border-radius: 2rem;
+    }
+
+    .line-16{
+        position: absolute;
+        top: 70rem;
+        width: 60rem;
+        left: 6rem;
+        border: 4px solid #FDC562;
+        border-radius: 2rem;
+    }
+    .skill-css{
+        font-family: 'Katibeh';
+        font-style: normal;
+        position: absolute;
+        top: 75rem;
+        left: 6rem;
+        font-weight: 200;
+    }
+
+    .line-17{
+        position: absolute;
+        top: 80rem;
+        width: 70rem;
+        left: 6rem;
+        border: 4px solid white;
+        border-radius: 2rem;
+    }
+
+    .line-18{
+        position: absolute;
+        top: 80rem;
+        width: 60rem;
+        left: 6rem;
+        border: 4px solid #FDC562;
+        border-radius: 2rem;
+    }
+    .skill-javascript{
+        font-family: 'Katibeh';
+        font-style: normal;
+        position: absolute;
+        top: 85rem;
+        left: 6rem;
+        font-weight: 200;
+    }
+
+    .line-19{
+        position: absolute;
+        top: 90rem;
+        width: 70rem;
+        left: 6rem;
+        border: 4px solid white;
+        border-radius: 2rem;
+    }
+
+    .line-20{
+        position: absolute;
+        top: 90rem;
+        width: 45rem;
+        left: 6rem;
+        border: 4px solid #FDC562;
+        border-radius: 2rem;
+    }
+
+    .skill-cplus{
+        font-family: 'Katibeh';
+        font-style: normal;
+        position: absolute;
+        top: 95rem;
+        left: 6rem;
+        font-weight: 200;
+    }
+
+    .line-21{
+        position: absolute;
+        top: 100rem;
+        width: 70rem;
+        left: 6rem;
+        border: 4px solid white;
+        border-radius: 2rem;
+    }
+
+    .line-22{
+        position: absolute;
+        top: 100rem;
+        width: 55rem;
+        left: 6rem;
+        border: 4px solid #FDC562;
+        border-radius: 2rem;
+    }
+
+/* mobile version */
+
+@media only screen and (max-width: 980px){
+
+
+    .Resume{
+            width: 90%;
+            height: 210rem;
+            left: 2.5rem;
+            top: 15rem;
+        }
+        .resume-logo{
+            display: block;
+            position: absolute;
+            width: 25rem;
+            left: 1rem;
+            top: -13.5rem;
+            font-family: 'IM FELL Great Primer SC';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 5rem;
+            color: #FDC562;
+            }
+        .resume-book{
+              font-size: 7rem;
+            }
+    
+        .education{
+           font-size: 5rem;
+           left: 15rem;
+        }
+    
+        .line-8{
+          top: 9rem;
+          left: 9.5rem;
+          height: 39rem;
+        }
+
+        
+    .line-9{
+        top: 9rem;
+        width: 15%;
+        left: 15rem;
+        border: 0.5rem solid #FDC562;
+     }
+
+     .resume-degree1{
+        top: 15rem;
+        left: 15rem;
+        font-size: 3.5rem;
+     }
+
+     .resume-degree2{
+        top: 28rem;
+        left: 15rem;
+        font-size: 3.5rem;
+     }
+    .resume-degree3{
+        top: 46rem;
+        left: 15rem;
+        font-size: 3.5rem;
+     }
+    
+
+     .degree1-dot{
+       left: 8.5rem;
+       width: 2rem;
+       height: 2rem;
+       top: 16rem;
+     }
+      
+     .degree2-dot{
+       left: 8.5rem;
+       width: 2rem;
+       height: 2rem;
+       top: 29rem;
+     }
+      
+     
+     .degree3-dot{
+       left: 8.5rem;
+       width: 2rem;
+       height: 2rem;
+       top: 47rem;
+     }
+
+     /* project */
+
+     .resume-project{
+        font-size: 7rem;
+        top: 65rem;
+      }
+
+     .project{
+        font-size: 5rem;
+        left: 15rem;
+        top: 65rem;
+     }
+ 
+     .line-10{
+       top: 72rem;
+       left: 9.5rem;
+       height: 30rem;
+     }
+
+     
+ .line-11{
+     top: 71.5rem;
+     width: 15%;
+     left: 15rem;
+     border: 0.5rem solid #FDC562;
+  }
+
+  .project1{
+     top: 75rem;
+     left: 15rem;
+     font-size: 3.5rem;
+  }
+
+  .project2{
+     top: 87rem;
+     left: 15rem;
+     font-size: 3.5rem;
+  }
+ .project3{
+     top: 100rem;
+     left: 15rem;
+     font-size: 3.5rem;
+  }
+ 
+
+  .project1-dot{
+    left: 8.5rem;
+    width: 2rem;
+    height: 2rem;
+    top: 76rem;
+  }
+   
+  .project2-dot{
+    left: 8.5rem;
+    width: 2rem;
+    height: 2rem;
+    top: 88rem;
+  }
+   
+  
+  .project3-dot{
+    left: 8.5rem;
+    width: 2rem;
+    height: 2rem;
+    top: 101rem;
+  }
+
+  /* skill */
+ 
+  .resume-skill{
+    font-size: 7rem;
+    top: 115rem;
+  }
+
+ .skill{
+    font-size: 5rem;
+    left: 15rem;
+    top: 115.5rem;
+ }
+ 
+.line-12{
+ top: 121.5rem;
+ width: 15%;
+ left: 15rem;
+ border: 0.5rem solid #FDC562;
+}
+
+
+.skill-react{
+    top: 130rem;
+    left: 6.5rem;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.line-13{
+    top: 137rem;
+    border: 8px solid white;
+    width: 40rem;
+}
+
+.line-14{
+    top: 137rem;
+    border: 8px solid #FDC562;
+    width: 24rem;
+}
+.skill-html{
+    top: 145rem;
+    left: 6.5rem;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.line-15{
+    top: 153rem;
+    border: 8px solid white;
+    width: 40rem;
+}
+
+.line-16{
+    top: 153rem;
+    border: 8px solid #FDC562;
+    width: 35rem;
+}
+.skill-css{
+    top: 160rem;
+    left: 6.5rem;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.line-17{
+    top: 169rem;
+    border: 8px solid white;
+    width: 40rem;
+}
+
+.line-18{
+    top: 169rem;
+    border: 8px solid #FDC562;
+    width: 35rem;
+}
+.skill-javascript{
+    top: 175rem;
+    left: 6.5rem;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.line-19{
+    top: 183rem;
+    border: 8px solid white;
+    width: 40rem;
+}
+
+.line-20{
+    top: 183rem;
+    border: 8px solid #FDC562;
+    width: 27rem;
+}
+
+.skill-cplus{
+    top: 190rem;
+    left: 6.5rem;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.line-21{
+    top: 200rem;
+    border: 8px solid white;
+    width: 40rem;
+}
+
+.line-22{
+    top: 200rem;
+    border: 8px solid #FDC562;
+    width: 30rem;
+ }
+}
