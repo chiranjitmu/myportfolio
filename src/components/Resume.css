@@ -135,7 +135,7 @@
     }
 
     .line-10{
-       height: 14.5rem;
+       height: 10.2rem;
        width: 0;
        position: absolute;
        left: 7rem;
@@ -173,7 +173,7 @@
      }
       
      
-     .project3-dot{
+     /* .project3-dot{
         background-color: #FDC562;
         width: 1rem;
         height: 1rem;
@@ -181,7 +181,7 @@
         top: 41.5rem;
         left: 6.5rem;
         border-radius: 100%;
-     }
+     } */
 
 
      .project1{
@@ -208,7 +208,7 @@
         font-weight: 500;
      }
 
-     .project3{
+     /* .project3{
         position: absolute;
         top: 41rem;
         left: 10rem;
@@ -218,13 +218,13 @@
         font-family: 'Jost';
         font-style: italic;
         font-weight: 500;
-     }
+     } */
 
      /* skills */
      
      .resume-skill{
         position: absolute;
-        top: 50rem;
+        top: 45rem;
         left: 6rem;
         font-size: 2rem;
         color: #FDC562;
@@ -234,7 +234,7 @@
         position: absolute;
         width: 8rem;
         left: 10rem;
-        top: 50rem;
+        top: 45rem;
         font-family: 'Brygada 1918', serif;
         font-style: italic;
         font-weight: 500;
@@ -244,7 +244,7 @@
  
      .line-12{
          position: absolute;
-         top: 52.5rem;
+         top: 47.5rem;
          width: 4%;
          left: 10rem;
          border: 2px solid #FDC562;
@@ -255,14 +255,14 @@
         font-family: 'Katibeh';
         font-style: normal;
         position: absolute;
-        top: 57rem;
+        top: 52rem;
         left: 6rem;
         font-weight: 200;
     }
 
     .line-13{
         position: absolute;
-        top: 62rem;
+        top: 57rem;
         width: 70rem;
         left: 6rem;
         border: 4px solid white;
@@ -271,7 +271,7 @@
 
     .line-14{
         position: absolute;
-        top: 62rem;
+        top: 57rem;
         width: 50rem;
         left: 6rem;
         border: 4px solid #FDC562;
@@ -282,14 +282,14 @@
         font-family: 'Katibeh';
         font-style: normal;
         position: absolute;
-        top: 65rem;
+        top: 60rem;
         left: 6rem;
         font-weight: 200;
     }
 
     .line-15{
         position: absolute;
-        top: 70rem;
+        top: 65rem;
         width: 70rem;
         left: 6rem;
         border: 4px solid white;
@@ -298,7 +298,7 @@
 
     .line-16{
         position: absolute;
-        top: 70rem;
+        top: 65rem;
         width: 60rem;
         left: 6rem;
         border: 4px solid #FDC562;
@@ -308,14 +308,14 @@
         font-family: 'Katibeh';
         font-style: normal;
         position: absolute;
-        top: 75rem;
+        top: 69rem;
         left: 6rem;
         font-weight: 200;
     }
 
     .line-17{
         position: absolute;
-        top: 80rem;
+        top: 74rem;
         width: 70rem;
         left: 6rem;
         border: 4px solid white;
@@ -324,7 +324,7 @@
 
     .line-18{
         position: absolute;
-        top: 80rem;
+        top: 74rem;
         width: 60rem;
         left: 6rem;
         border: 4px solid #FDC562;
@@ -334,14 +334,14 @@
         font-family: 'Katibeh';
         font-style: normal;
         position: absolute;
-        top: 85rem;
+        top: 78rem;
         left: 6rem;
         font-weight: 200;
     }
 
     .line-19{
         position: absolute;
-        top: 90rem;
+        top: 85rem;
         width: 70rem;
         left: 6rem;
         border: 4px solid white;
@@ -350,7 +350,7 @@
 
     .line-20{
         position: absolute;
-        top: 90rem;
+        top: 85rem;
         width: 45rem;
         left: 6rem;
         border: 4px solid #FDC562;
@@ -361,14 +361,14 @@
         font-family: 'Katibeh';
         font-style: normal;
         position: absolute;
-        top: 95rem;
+        top: 90rem;
         left: 6rem;
         font-weight: 200;
     }
 
     .line-21{
         position: absolute;
-        top: 100rem;
+        top: 95rem;
         width: 70rem;
         left: 6rem;
         border: 4px solid white;
@@ -377,7 +377,7 @@
 
     .line-22{
         position: absolute;
-        top: 100rem;
+        top: 95rem;
         width: 55rem;
         left: 6rem;
         border: 4px solid #FDC562;
@@ -486,7 +486,7 @@
      .line-10{
        top: 72rem;
        left: 9.5rem;
-       height: 30rem;
+       height: 17rem;
      }
 
      
@@ -508,11 +508,11 @@
      left: 15rem;
      font-size: 3.5rem;
   }
- .project3{
+ /* .project3{
      top: 100rem;
      left: 15rem;
      font-size: 3.5rem;
-  }
+  } */
  
 
   .project1-dot{
@@ -529,29 +529,29 @@
     top: 88rem;
   }
    
-  
+/*   
   .project3-dot{
     left: 8.5rem;
     width: 2rem;
     height: 2rem;
     top: 101rem;
-  }
+  } */
 
   /* skill */
  
   .resume-skill{
     font-size: 7rem;
-    top: 115rem;
+    top: 100rem;
   }
 
  .skill{
     font-size: 5rem;
     left: 15rem;
-    top: 115.5rem;
+    top: 100.5rem;
  }
  
 .line-12{
- top: 121.5rem;
+ top: 107.5rem;
  width: 15%;
  left: 15rem;
  border: 0.5rem solid #FDC562;
@@ -559,93 +559,93 @@
 
 
 .skill-react{
-    top: 130rem;
+    top: 118rem;
     left: 6.5rem;
     font-size: 5rem;
     font-weight: 100;
 }
 
 .line-13{
-    top: 137rem;
+    top: 127rem;
     border: 8px solid white;
     width: 40rem;
 }
 
 .line-14{
-    top: 137rem;
+    top: 127rem;
     border: 8px solid #FDC562;
     width: 24rem;
 }
 .skill-html{
-    top: 145rem;
+    top: 135rem;
     left: 6.5rem;
     font-size: 5rem;
     font-weight: 100;
 }
 
 .line-15{
-    top: 153rem;
+    top: 144rem;
     border: 8px solid white;
     width: 40rem;
 }
 
 .line-16{
-    top: 153rem;
+    top: 144rem;
     border: 8px solid #FDC562;
     width: 35rem;
 }
 .skill-css{
-    top: 160rem;
+    top: 153rem;
     left: 6.5rem;
     font-size: 5rem;
     font-weight: 100;
 }
 
 .line-17{
-    top: 169rem;
+    top: 162rem;
     border: 8px solid white;
     width: 40rem;
 }
 
 .line-18{
-    top: 169rem;
+    top: 162rem;
     border: 8px solid #FDC562;
     width: 35rem;
 }
 .skill-javascript{
-    top: 175rem;
+    top: 170rem;
     left: 6.5rem;
     font-size: 5rem;
     font-weight: 100;
 }
 
 .line-19{
-    top: 183rem;
+    top: 179rem;
     border: 8px solid white;
     width: 40rem;
 }
 
 .line-20{
-    top: 183rem;
+    top: 179rem;
     border: 8px solid #FDC562;
     width: 27rem;
 }
 
 .skill-cplus{
-    top: 190rem;
+    top: 188rem;
     left: 6.5rem;
     font-size: 5rem;
     font-weight: 100;
 }
 
 .line-21{
-    top: 200rem;
+    top: 196rem;
     border: 8px solid white;
     width: 40rem;
 }
 
 .line-22{
-    top: 200rem;
+    top: 196rem;
     border: 8px solid #FDC562;
     width: 30rem;
  }

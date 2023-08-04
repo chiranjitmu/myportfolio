@@ -6,7 +6,8 @@ import "./Home.css";
 
 function Home() {
   return (
-    <Fade right>
+    <>
+    <Fade bottom>
       <div className="Home">
         <h1 className="home-logo">PORTFOLIO</h1>
         <img src="mypic.jpeg" alt="mypic" className="mypic" />
@@ -27,6 +28,7 @@ function Home() {
         <h1 className="home-locname">Bangalore, India</h1>
       </div>
     </Fade>
+     </> 
   );
 }
 

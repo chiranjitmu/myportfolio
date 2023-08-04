@@ -34,8 +34,7 @@ function Resume() {
           <span className='project2-dot'></span>
           <span className='project3-dot'></span>
          <a className='project1' href='https://disney-hotstarclone.netlify.app/'>HOTSTAR - CLONE</a>
-         <a className='project2' href='/'>TINDER - CLONE</a>
-         <a className='project3' href='https://chiranjitmu.github.io/Banaoproject/'>BOOTSTRAP - PROJECT</a>
+         <a className='project2' href='https://chiranjitmu.github.io/Banaoproject/'>BOOTSTRAP - PROJECT</a>
       </div>   
 
       <div className='skills'>
