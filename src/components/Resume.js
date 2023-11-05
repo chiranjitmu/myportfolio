@@ -19,7 +19,7 @@ function Resume() {
           <span className='degree1-dot'></span>
           <span className='degree2-dot'></span>
           <span className='degree3-dot'></span>
-         <p className='resume-degree1'>BIMS College, Bangalore Currently Pursuing BCA.</p>
+         <p className='resume-degree1'>BIMS College, Bangalore(BCA) Grade 80%</p>
          <p className='resume-degree2'>Dayananda Sagar College, Bangalore(2ndPuc), Commerce Grade 72%</p>
          <p className='resume-degree3'>ST.Ann’s Indian High School, Bangalore(10th) Grade 65%</p>
       </div>  
