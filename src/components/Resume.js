@@ -35,6 +35,7 @@ function Resume() {
           <span className='project3-dot'></span>
          <a className='project1' href='https://disney-hotstarclone.netlify.app/'>HOTSTAR - CLONE</a>
          <a className='project2' href='https://chiranjitmu.github.io/Banaoproject/'>BOOTSTRAP - PROJECT</a>
+         <a className='project3' href='https://chitchat-chir.netlify.app/'>Chit-Chat App</a>
       </div>   
 
       <div className='skills'>
@@ -53,7 +54,7 @@ function Resume() {
          <h1 className='skill-javascript'>JavaScript 70%</h1>
          <hr className='line-19'></hr>
          <hr className='line-20'></hr>
-           <h1 className='skill-cplus'>C++ 80%</h1>
+           <h1 className='skill-cplus'>Tailwind 80%</h1>
          <hr className='line-21'></hr>
          <hr className='line-22'></hr>
       </div>
